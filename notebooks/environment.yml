@@ -1,0 +1,31 @@
+name: fraud-detect
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - lightgbm
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - joblib
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - tqdm
+  - pyyaml
+  - requests
+  - fastapi
+  - uvicorn
+  - pydantic>=1.10,<3
+  - anyio
+  - httpx
+  - typing-extensions
+  - pip:
+      - imbalanced-learn==0.14.0
+      - xgboost==3.1.1
+prefix: ./envs/fraud-detect
